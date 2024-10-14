@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- NavBar -->
+
+    <nav class="bg-[#18546e]">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <img src="Images/logo.png" alt="logo" class="mx-4">
+            <div class="hidden lg:flex space-x-8 mx-6">
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Top Selling</a>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Activities</a>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Burj Khalifa</a>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Desert Safari</a>
+                <p class="text-gray-300 hover:text-white text-sm">&#124;</p>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Login</a>
+                <img src="Images/search.png" alt="search" class="w-[22px] h-[22px] object-cover">
+                <img src="Images/shopping.png" alt="" class="w-[17px] h-[18.89px] object-cover">
+
+
+            </div>
+            <div class="lg:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="flex flex-col space-y-4 px-4 py-2 bg-gray-700">
+                <a href="#" class="text-gray-300 hover:text-white">Home</a>
+                <a href="#" class="text-gray-300 hover:text-white">About</a>
+                <a href="#" class="text-gray-300 hover:text-white">Services</a>
+                <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    
+     <div class="w-10/12 mx-auto"> <!-- Main Body Parent Div -->
+        <div> <!-- Dubai Desert Text -->
+            <p class="text-xl mt-2 font-bold">Dubai Desert 4X4 Dune Bashing, Self-Ride 60min ATV Quad, Camel Ride, Shows, Dinner</p>
+        </div>
+
+        <div class="flex">
+            <p class="text-2xl text-orange-500">&#x2605;</p>
+            <p class="text-2xl text-orange-400">&#x2605;</p>
+            <p class="text-2xl text-orange-300">&#x2605;</p>
+            <p class="text-2xl text-orange-200">&#x2605;</p>
+            <p class="text-2xl text-orange-200">&#x2605;</p>
+            <p class="p-1">45 Reviews</p>
+        </div>
+
+
+        <div class="block 2xl:flex xl:flex lg:flex"> <!-- Parent Section-1 & Sectio-2 -->
+
+            <!-- Section-1 -->
+         <div class="w-full 2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:full">
+
+
+            <!-- Jeep Scetion -->
+            <div class="block md:flex p-2">
+                <!-- First column with jeep1, jeep2, jeep3 -->
+                <div class="flex flex-col justify-between py-3 space-y-2 md:space-y-0">
+                  
+                  <img src="Images/jeep1.png" alt="jeep1" class="w-full h-auto md:w-[146px] md:h-[128px] object-cover">
+                  
+                  <img src="Images/jeep2.png" alt="jeep2" class="w-full h-auto md:w-[146px] md:h-[128px] my-1 object-cover">
+                  
+                  <div class="relative w-full h-auto md:w-[146px] md:h-[128px]">
+                    <img src="Images/jeep3.png" alt="jeep3" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 text-white text-lg font-semibold">
+                      Show more
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Second column with jeep4 -->
+                <div class="md:ml-2 md:mt-0 mt-4">
+                  <img src="Images/jeep4.png" alt="jeep4" class="w-full h-auto md:w-[756px] md:h-[410px] object-cover">
+                </div>
+              </div>
+              
+
+            
+          
+       
+              <!-- Camel Ride -1 -->
+              <div class="flex flex-col md:flex-row border mx-3">
+                <!-- Image Section -->
+                <div class="w-full md:w-[231px] h-[255px] p-4 my-5 flex justify-center p-2">
+                    <img src="Images/camelRide.png" alt="camelRide" class="object-cover">
+                </div>
+            
+                <div class="mt-2 md:w-[358px] p-2 mt-4">
+                    <div class="border-r-0 2xl:border-r-2 xl:border-r-2 lg:border-r-2 md:border-r-2">
+                        <div class="p-2">
+                            <p class="text-sm font-bold">Camel Ride, Shows, Dinner</p>
+                            <div class="flex w-[94px] h-[15px] mb-1">
+                                <p class="text-2xl text-orange-500 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-400 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-300 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-200 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-200 w-[19px] h-[19px]">&#x2605;</p>
+                            </div>
+                        </div>
+                        <ul class="list-disc my-2 mx-2 text-[11px] space-y-1">
+                            <li class="text-[11px]">Get yourself tickets to the award-winning Dubai Frame, the world's largest picture frame, and admire unbeaten views of the city.</li>
+                            <li class="text-[11px]">On one side, you'll notice iconic landmarks of modern Dubai, and on the other, you'll see older parts of the city.</li>
+                            <li class="text-[11px]">On one side, you'll notice iconic landmarks of modern Dubai, and on the other, you'll see older parts of the city.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            
+                <div class="p-4 w-full md:w-auto">
+                    <div class="flex my-1 w-[151px] h-[24px]">
+                        <img src="Images/freeCancellation.png" alt="freeCancellation" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Free Cancellation</p>
+                        </div>
+                    </div>
+            
+                    <div class="flex my-1 w-[202px] h-[24px]">
+                        <img src="Images/reserve.png" alt="reserve" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Reserve now and pay later</p>
+                        </div>
+                    </div>
+            
+                    <div class="flex my-1 w-[169px] h-[24px]">
+                        <img src="Images/duration.png" alt="duration" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Duration 1-3 hours</p>
+                        </div>
+                    </div>
+            
+                    <div class="flex my-1 w-[138px] h-[19px]">
+                        <img src="Images/host.png" alt="host" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Host or greeters</p>
+                        </div>
+                    </div>
+            
+                    <div class="mt-2">
+                        <p class="text-md">Starting from</p>
+                        <p class="font-bold text-md">AED 69.00</p>
+                    </div>
+            
+                    <button class="bg-[#18546e] text-white text-xs text-center p-1 w-full rounded-md my-3 h-[39px]">Check Availability</button>
+                </div>
+            </div>
+            
+            
+               <!-- End Camel Ride-1 -->
+
+            
+
+
+             <!-- Camel Ride-2 -->
+             <div class="flex flex-col md:flex-row border mx-3 my-4">
+                <!-- Image Section -->
+                <div class="w-full md:w-[231px] h-[255px] p-4 my-5 flex justify-center p-2">
+                    <img src="Images/camelRide.png" alt="camelRide" class="object-cover">
+                </div>
+            
+                <div class="mt-2 md:w-[358px] p-2 mt-4">
+                    <div class="border-r-0 2xl:border-r-2 xl:border-r-2 lg:border-r-2 md:border-r-2">
+                        <div class="p-2">
+                            <p class="text-sm font-bold">Camel Ride, Shows, Dinner</p>
+                            <div class="flex w-[94px] h-[15px] mb-1">
+                                <p class="text-2xl text-orange-500 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-400 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-300 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-200 w-[19px] h-[19px]">&#x2605;</p>
+                                <p class="text-2xl text-orange-200 w-[19px] h-[19px]">&#x2605;</p>
+                            </div>
+                        </div>
+                        <ul class="list-disc my-2 mx-2 text-[11px] space-y-1">
+                            <li class="text-[11px]">Get yourself tickets to the award-winning Dubai Frame, the world's largest picture frame, and admire unbeaten views of the city.</li>
+                            <li class="text-[11px]">On one side, you'll notice iconic landmarks of modern Dubai, and on the other, you'll see older parts of the city.</li>
+                            <li class="text-[11px]">On one side, you'll notice iconic landmarks of modern Dubai, and on the other, you'll see older parts of the city.</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="p-4 w-full md:w-auto">
+                    <div class="flex my-1 w-[151px] h-[24px]">
+                        <img src="Images/freeCancellation.png" alt="freeCancellation" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Free Cancellation</p>
+                        </div>
+                    </div>
+            
+                    <div class="flex my-1 w-[202px] h-[24px]">
+                        <img src="Images/reserve.png" alt="reserve" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Reserve now and pay later</p>
+                        </div>
+                    </div>
+            
+                    <div class="flex my-1 w-[169px] h-[24px]">
+                        <img src="Images/duration.png" alt="duration" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Duration 1-3 hours</p>
+                        </div>
+                    </div>
+            
+                    <div class="flex my-1 w-[138px] h-[19px]">
+                        <img src="Images/host.png" alt="host" class="w-[24px] h-[24px] object-cover">
+                        <div class="mx-2">
+                            <p class="text-[10px] font-semibold">Host or greeters</p>
+                        </div>
+                    </div>
+            
+                    <div class="mt-2">
+                        <p class="text-md">Starting from</p>
+                        <p class="font-bold text-md">AED 69.00</p>
+                    </div>
+            
+                    <button class="bg-[#18546e] text-white text-xs text-center p-1 w-full rounded-md my-3 h-[39px]">Check Availability</button>
+                </div>
+            </div> 
+             <!-- End Camel Ride-2 -->
+
+            
+            
+            
+         </div> <!-- End Sectio-1 -->
+
+         <!-- Section-2 -->
+          <div class="my-2">
+            <!-- About This Activity -->
+             <div class="w-full 2xl:w-[373px] xl:w-[373px] lg:w-[373px] md:w-[373px] h-[385px] p-4 my-2 text-lg" style="box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.1), 0 -4px 10px rgba(0, 0, 0, 0.1);">
+                <p class="font-bold">About this activity</p>
+
+                <div class="flex my-5">
+                    <img src="Images/freeCancellation.png" alt="freeCancellation" class="w-[24px] h-[24px] object-cover">
+                    <div class="mx-2">
+                        <p class="text-xs font-semibold">Free Cancellation</p>
+                    <p class="text-xs text-slate-500">Cancel upto 24 hours in advance for a full refund</p>
+                    </div>
+                </div>
+
+                <div class="flex my-5">
+                    <img src="Images/reserve.png" alt="reserve" class="w-[24px] h-[24px] object-cover">
+                    <div class="mx-2">
+                        <p class="text-xs font-semibold">Reserve now and pay later</p>
+                    <p class="text-xs text-slate-500">keep your travel plan flexible - book your spot and nothing for today</p>
+                    </div>
+                </div>
+
+                <div class="flex my-5">
+                    <img src="Images/duration.png" alt="duration" class="w-[24px] h-[24px] object-cover">
+                    <div class="mx-2">
+                        <p class="text-xs font-semibold">Duration 1 - 3 hours</p>
+                    <p class="text-xs text-slate-500">Check availability to see starting times.</p>
+                    </div>
+                </div>
+
+                <div class="flex my-5">
+                    <img src="Images/host.png" alt="host" class="w-[24px] h-[24px] object-cover">
+                    <div class="mx-2">
+                        <p class="text-xs font-semibold">Host or greeter</p>
+                    <p class="text-xs text-slate-500">English</p>
+                    </div>
+                </div>
+
+                <div class="flex my-5">
+                    <img src="Images/audio.png" alt="audio" class="w-[24px] h-[24px] object-cover">
+                    <div class="mx-2">
+                        <p class="text-xs font-semibold">Audio guide included</p>
+                    <p class="text-xs text-slate-500">English</p>
+                    </div>
+                </div>
+             </div>
+
+             <!-- Starting AED -->
+              <div class="w-full 2xl:w-[373px] xl:w-[373px] lg:w-[373px] md:w-[373px] h-[373px] p-4 my-2" style="box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.1), 0 -4px 10px rgba(0, 0, 0, 0.1);">
+                <p class="">Starting from</p>
+                <p class="font-bold">AED 69.00</p>
+                <button class="bg-[#18546e] text-white text-center p-1 w-full rounded-md my-6 w-[336px] h-[39px]">Check Availability</button>
+                <p>Select Date and Travelers</p>
+                <div class="my-4">
+                    <div class="flex border-2 rounded-md my-2">
+                        <img src="Images/calender.png" alt="calender" class="w-[18px] h-[39px] mx-2">
+                        <p class="p-2 text-sm p-1">Thursday, Dec 7, 2023</p>
+                    </div>
+                    <div class="flex border-2 rounded-md my-2">
+                        <img src="Images/profile.png" alt="profile" class="w-[18px] h-[18px] m-2">
+                        <p class="p-2 text-sm p-1">Thursday, Dec 7, 2023</p>
+                    </div>
+                </div>
+
+                <div class="flex my-5">
+                    <img src="Images/check.png" alt="check" class="w-[20px] h-[20px] object-cover">
+                    <div class="mx-2">
+                        <p class="text-xs font-semibold"><span class="underline text-[#3fa225] font-bold">Free cancellation</span> upto 24 hours before the experience start (local time)</p>
+                    </div>
+                </div>
+              </div>
+
+              <!-- Why Travel with US -->
+               <div class="w-full 2xl:w-[371px] xl:w-[371px] lg:w-[371px] md:w-[371px] h-auto p-4 my-2" style="box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.1), 0 -4px 10px rgba(0, 0, 0, 0.1);"">
+                <p class="font-semibold my-2">Why Travel with us?</p>
+                <ul class="list-disc p-5">
+                    <li class="text-[13px] my-2">Trusted platform used by 100k+ people each month</li>
+                    <li class="text-[13px] my-2">Get the lowest prices and last minute availability</li>
+                    <li class="text-[13px] my-2">Dissover and connect 10,000+ experiences</li>
+                    <li class="text-[13px] my-2">Browser verified views and professional photographs</li>
+                    <li class="text-[13px] my-2">Have a question? live chat with over experts 24/7</li>
+                </ul>
+               </div>
+          </div><!-- End Section-2 -->
+        </div>
+
+     </div>
+</body>
+</html>
